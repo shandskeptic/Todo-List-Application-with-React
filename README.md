@@ -1,4 +1,4 @@
-![Responsive](https://github.com/shandskeptic/Todo-List-Application-with-React/assets/77574907/b702cbb0-4144-4154-aa25-d4e7116374db)
+![todolistreact](https://github.com/shandskeptic/Todo-List-Application-with-React/assets/77574907/8a69d607-3d72-45b3-8e01-f5dc65c7f12b)
 
 # React + Vite
 
