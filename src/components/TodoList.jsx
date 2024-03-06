@@ -10,13 +10,13 @@ const ListTodo = ({ task, hDelete }) => {
 				<ul>
 					{task.map((item, index) => {
 						return (
-							<div key={index} className=" bg-primary-800 rounded-md w-[40vw] m-2">
+							<div key={index} className="bg-primary-800 m-2 rounded-md w-[80vw] md:w-[40vw]">
 								<li className="flex justify-between items-center">
 									<div className="flex items-center gap-2">
-										<span className="bg-primary-400 left-0 h-full  flex items-center p-2 rounded-l-md gap-4">{index + 1}</span>
-										<p className=" text-start">{item}</p>
+										<span className="left-0 flex items-center gap-4 bg-primary-400 p-2 rounded-l-md h-full">{index + 1}</span>
+										<p className="text-start">{item}</p>
 									</div>
-									<button onClick={() => hDelete(index)} className=" bg-primary-400 right-0 h-full flex items-center p-2 rounded-none rounded-r-md">
+									<button onClick={() => hDelete(index)} className="right-0 flex items-center bg-primary-400 p-2 rounded-none rounded-r-md h-full">
 										Delete
 									</button>
 								</li>
